@@ -2,7 +2,7 @@
 
 ## IST-Diagramm
 
-![IST-Diagramm](Diagramme/IST-Diagramm.png)
+![alt text](../00_Files/Screenshots/IST-Grafik.png)
 
 ### IST-Zustand
 - SRV: crmserver.sample.ch – CentOS 6.6
@@ -12,7 +12,7 @@
 
 ## SOLL-Diagramm
 
-![SOLL-Diagramm](Diagramme/SOLL-Diagramm.png)
+
 
 ### SOLL-Zustand
 - SRV: crmserver.sample.ch – Ubuntu 22.04 LTS
