@@ -38,13 +38,18 @@ Migration des bestehenden CRM-Systems auf ein neues Betriebssystem mit aktuellem
 
 ## Repo-Struktur
 ```
-crm-migration/
+M158-LB2/
 ├── README.md
+├── Arbeitsjournal.md
+├── 00_Files/
+│   ├── Diagramme/
+│   │   └── M158-IST-Grafik.vsdx
+│   └── Screenshots/
+│       └── IST-Grafik.png
 ├── 01_Planung/
 │   ├── Projektplan.md
 │   ├── IST-Analyse.md
-│   ├── Architekturdiagramm.md
-│   └── Diagramme/
+│   └── Architekturdiagramm.md
 ├── 02_Umgebung/
 │   └── Umgebung.md
 ├── 03_Zielsystem/

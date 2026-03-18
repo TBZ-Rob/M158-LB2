@@ -37,6 +37,19 @@ mysql --version
 mysql -u root -p -e "SELECT * FROM vtiger_version;" vtigercrm
 ```
 
+## Mengengerüst Datenbank
+
+```sql
+-- Datenbankgrösse IST-System
+SELECT table_schema AS 'Datenbank',
+  ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS 'Grösse (MB)'
+FROM information_schema.tables
+WHERE table_schema = 'vtigercrm'
+GROUP BY table_schema;
+```
+
+*Ergebnis hier einfügen nach Ausführung auf IST-System.*
+
 ## Bewertung
 
 | Komponente | Version | Status |

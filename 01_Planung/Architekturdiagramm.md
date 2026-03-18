@@ -2,25 +2,40 @@
 
 ## IST-Diagramm
 
-![alt text](../00_Files/Screenshots/IST-Grafik.png)
+![IST-Diagramm](Diagramme/IST-Diagramm.png)
 
 ### IST-Zustand
-- SRV: crmserver.sample.ch – CentOS 6.6
-- Apache 2.2.15 führt Vtiger-PHP-Code aus
-- PHP 5.3.3 verarbeitet Anfragen und kommuniziert mit der Datenbank
-- MySQL 5.1.73 speichert alle CRM-Daten (Port 3306)
+| Komponente | Details |
+|------------|---------|
+| Server | crmserver.sample.ch |
+| IP | 192.168.100.x (DHCP) |
+| OS | CentOS 6.6 |
+| Webserver | Apache 2.2.15 |
+| PHP | 5.3.3 |
+| Datenbank | MySQL 5.1.73 (Port 3306) |
+| CRM | Vtiger 6.1.0 |
+| Firewall | keine |
 
 ## SOLL-Diagramm
 
-
+![alt text](../00_Files/Screenshots/IST-Grafik.png)
 
 ### SOLL-Zustand
-- SRV: crmserver.sample.ch – Ubuntu 22.04 LTS
-- UFW Firewall: nur Port 22, 80, 443 offen
-- Apache 2.4.x führt Vtiger-PHP-Code aus
-- PHP 8.2.x verarbeitet Anfragen und kommuniziert mit der Datenbank
-- MariaDB 10.x speichert alle CRM-Daten (Port 3306)
-- Vtiger 7.x als aktualisierte CRM-Applikation
+| Komponente | Details |
+|------------|---------|
+| Server | crmserver.sample.ch |
+| IP | 192.168.100.10 |
+| OS | Ubuntu 22.04 LTS |
+| Webserver | Apache 2.4.x |
+| PHP | 8.2.x |
+| Datenbank | MariaDB 10.x (Port 3306) |
+| CRM | Vtiger 7.x |
+| Firewall | UFW (Port 22, 80, 443) |
+
+## Netzwerk
+- NAT-Netzwerk: `crm-migration`
+- Subnetz: 192.168.100.0/24
+- Gateway: 192.168.100.1
 
 ## Vergleich IST / SOLL
 
