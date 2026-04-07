@@ -1,5 +1,7 @@
 # Auftrag #1 – Projektplan
 
+![alt text](../00_Files/Screenshots/Planung-Grafik.png)
+
 ## Rahmenbedingungen
 - 5 Projekttage (je 4 x 45 min = 3h)
 - 1 Tag pro Woche
