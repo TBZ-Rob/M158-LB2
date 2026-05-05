@@ -124,4 +124,8 @@ M158-LB2/
 
 ---
 
-$\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit }} \textcolor{#D4622A}{\text{Claude AI Pro}} \textcolor{#8b949e}{\text{ generiert.}}$
+$\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit }} \textcolor{#D4622A}{\text{Claude AI Pro}} \textcolor{#8b949e}{\text{ generiert. Die Rechtschreibung wurde bei allen files auf einmal korrigiert mit folgende Prompt:
+```
+test
+```
+.}}$
