@@ -68,11 +68,11 @@ graph LR
 ## Projektphasen
 | Phase | Inhalt | Aufträge | Status |
 |-------|--------|----------|--------|
-| Tag 1 | Planung | #1, #2 | ✅ |
-| Tag 2 | Umgebung | #3 | ✅ |
-| Tag 3 | Zielsystem | #4, #5, #6, #7, #8, #9 | ✅ |
-| Tag 4 | Migration | #10, #11 | ✅ |
-| Tag 5 | Tests | #12, #13, #14 | ✅ |
+| Tag 1 | Planung | [#1](01_Planung/Projektplan.md), [#2](01_Planung/Architekturdiagramm.md) | ✅ |
+| Tag 2 | Umgebung | [#3](02_Umgebung/Umgebung.md) | ✅ |
+| Tag 3 | Zielsystem | [#4](03_Zielsystem/DNS.md), [#5](03_Zielsystem/Webserver.md), [#6](03_Zielsystem/PHP.md), [#7](03_Zielsystem/Mariadb.md), [#8](03_Zielsystem/PhpMyAdmin.md), [#9](03_Zielsystem/SFTP.md) | ✅ |
+| Tag 4 | Migration | [#10](04_Migration/Migration.md), [#11](04_Migration/Backup.md) | ✅ |
+| Tag 5 | Tests | [#12](05_Tests/Testkatalog.md), [#13](05_Tests/Monitoring.md), [#14](05_Tests/Deployment.md) | ✅ |
 
 ## Aufträge
 | Nr | Auftrag | Datei |
