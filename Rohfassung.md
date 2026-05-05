@@ -8,7 +8,7 @@ Folgender Prompt wurde zur Textverbesserung angewendet:
 ```
 mit folgendem Text:
 
----
+
 
 ```
 ## README – CRM Migration
@@ -21,7 +21,7 @@ migration des bestehenden CRM-Systems auf ein neues Betriebssystem mit aktuellem
 - vollständige Datenmigration
 - Sicherheit erhöhen durch Firewall und aktuelle Softwareversionen
 
----
+
 
 ## Auftrag #1 – Projektplan
 
@@ -66,7 +66,7 @@ migration des bestehenden CRM-Systems auf ein neues Betriebssystem mit aktuellem
 
 ### Kostenabschätzung
 | Tätigkeit | Zeitaufwand |
-|-----------|-------------|
+|--|-|
 | Planung | 3h |
 | Umgebung aufbauen | 3h |
 | Zielsystem einrichten | 3h |
@@ -74,7 +74,7 @@ migration des bestehenden CRM-Systems auf ein neues Betriebssystem mit aktuellem
 | Tests & Deployment | 3h |
 | **Total** | **15h** |
 
----
+
 
 ## Auftrag #2 (Teil) – IST-Analyse
 
@@ -119,7 +119,7 @@ GROUP BY table_schema;
 ### Bewertung
 
 | Komponente | Version | Status |
-|------------|---------|--------|
+|||--|
 | OS | CentOS 6.6 | ⚠️ EOL seit 2020 |
 | Webserver | Apache 2.2.15 | ⚠️ EOL |
 | PHP | 5.3.3 | ⚠️ EOL |
@@ -128,14 +128,14 @@ GROUP BY table_schema;
 
 alle Komponenten sind End-of-Life. Eine Migration ist dringend notwendig.
 
----
+
 
 ## Auftrag #2 – Architekturdiagramm IST/SOLL
 
 ### IST-Zustand
 
 | Komponente | Details |
-|------------|---------|
+|||
 | Server | crmserver.internal.ch |
 | OS | CentOS 6.6 |
 | Webserver | Apache 2.2.15 |
@@ -147,7 +147,7 @@ alle Komponenten sind End-of-Life. Eine Migration ist dringend notwendig.
 ### SOLL-Zustand
 
 | Komponente | Details |
-|------------|---------|
+|||
 | Server | crmserver.internal.ch |
 | IP | 192.168.10.x |
 | OS | Ubuntu 24.04.2 LTS |
@@ -160,7 +160,7 @@ alle Komponenten sind End-of-Life. Eine Migration ist dringend notwendig.
 ### Vergleich IST / SOLL
 
 | Komponente | IST | SOLL | Grund |
-|------------|-----|------|-------|
+||--||-|
 | OS | CentOS 6.6 | Ubuntu 24.04 LTS | CentOS EOL, Ubuntu LTS bis 2029 |
 | Webserver | Apache 2.2.15 | Apache 2.4.62 | EOL, Sicherheit und performance |
 | PHP | 5.3.3 | 8.3 | EOL, Vtiger 8 benötigt PHP 8.x |
@@ -177,14 +177,14 @@ DNS:      8.8.8.8
 SOLL-IP:  192.168.10.x
 ```
 
----
+
 
 ## Auftrag #3 – Umgebung aufbauen/einrichten
 
 ### Übersicht
 
 | Komponente | IST (alt) | SOLL (neu) |
-|------------|-----------|------------|
+||--||
 | Hypervisor | Oracle VirtualBox | VMware Workstation Pro |
 | OS | CentOS 6.6 | Ubuntu 24.04.2 LTS (Noble Numbat) |
 | IP | DHCP | 192.168.10.x (statisch) |
@@ -197,7 +197,7 @@ ubuntu 24.04.2 LTS wurde als neue VM in VMware Workstation Pro installiert. Die 
 #### Netzwerkkonfiguration
 
 | Parameter | Wert |
-|-----------|------|
+|--||
 | Netzwerk | 192.168.10.0/24 |
 | IP (SOLL-VM) | 192.168.10.x |
 | Gateway | 192.168.10.1 |
@@ -231,7 +231,7 @@ ssh -o HostKeyAlgorithms=+ssh-rsa \
 #### Problem 3 – Ubuntu-VM
 Die Installation der Ubuntu-VM verlief ohne nennenswerte Probleme. Dank bestehender Erfahrung mit ubuntu konnte die Umgebung zügig aufgesetzt werden.
 
----
+
 
 ## Auftrag #4 – DNS
 
@@ -268,7 +268,7 @@ ping crmserver.internal.ch
 - [x] Namensauflösung mit `ping` getestet
 - [x] Keine Probleme aufgetreten
 
----
+
 
 ## Auftrag #5 – Webserver
 
@@ -348,7 +348,7 @@ sudo systemctl restart apache2
 - [x] Module `rewrite`, `ssl`, `headers` aktiviert
 - [x] Standard-Site deaktiviert
 
----
+
 
 ## Auftrag #6 – PHP
 
@@ -405,7 +405,7 @@ sudo systemctl restart apache2
 - [x] Apache neu gestartet
 - [x] `info.php` nach Test wieder gelöscht
 
----
+
 
 ## Auftrag #7 – MySQL/MariaDB-Datenbankserver
 
@@ -424,7 +424,7 @@ sudo mysql_secure_installation
 ```
 
 | Schritt | Wert |
-|---------|------|
+|||
 | Root-Passwort setzen | ✅ Ja |
 | Anonyme Benutzer entfernen | ✅ Ja |
 | Remote Root-Login deaktivieren | ✅ Ja |
@@ -461,7 +461,7 @@ max_connections         = 100
 - [x] Zugriff auf `localhost` beschränkt
 - [x] Remote Root-Login deaktiviert
 
----
+
 
 ## Auftrag #8 – PhpMyAdmin
 
@@ -512,7 +512,7 @@ PhpMyAdmin wurde während der Migration genutzt für:
 - [x] Zugriff auf lokales Netz (192.168.10.0/24) beschränkt
 - [x] Für Migrationskontrolle eingesetzt
 
----
+
 
 ## Auftrag #9 – SFTP-Zugang
 
@@ -567,7 +567,7 @@ Der SFTP-zugang wurde für folgende Aufgaben genutzt:
 - [x] Verbindung getestet
 - [x] Für Datenmigration eingesetzt
 
----
+
 
 ## Auftrag #10 – WebApp/DB-Migration
 
@@ -623,7 +623,7 @@ sudo chown -R www-data:www-data /var/www/html/vtigercrm
 #### Durchgeführte Upgrades
 
 | Schritt | Von | Nach | Methode |
-|---------|-----|------|---------|
+||--|||
 | 1 | 6.1.0 | 6.4.0 | Neuinstallation + DB-Import |
 | 2 | 6.4.0 | 6.5.0 | Vtiger Migrations-Wizard |
 | 3 | 6.5.0 | 7.0.0 | Vtiger Migrations-Wizard |
@@ -682,14 +682,14 @@ $site_URL = 'https://crmserver.internal.ch/vtigercrm';
 - [x] `config.inc.php` angepasst
 - [x] Login und Datenkonsistenz geprüft
 
----
+
 
 ## Auftrag #11 – Backup
 
 ### Backup-Konzept
 
 | Parameter | Wert |
-|-----------|------|
+|--||
 | Datenbank | Täglich, vollständiger `mysqldump` |
 | Dateien | Täglich, komprimiertes Archiv |
 | Speicherort | Externes Laufwerk (`/mnt/backup`) |
@@ -734,7 +734,7 @@ sudo /usr/local/bin/vtiger-backup.sh
 - [x] Cron Job täglich 02:00 Uhr
 - [x] Manueller Test erfolgreich
 
----
+
 
 ## Auftrag #12 – Testing
 
@@ -747,7 +747,7 @@ Ziel der tests ist der Nachweis, dass die Migration erfolgreich war und das Syst
 #### 🌐 Netzwerk & Erreichbarkeit
 
 | # | Testfall | Erwartetes Ergebnis | Status |
-|---|----------|-------------------|--------|
+||-|-|--|
 | T01 | `ping crmserver.internal.ch` | Antwort von 192.168.10.x | ✅ |
 | T02 | HTTP-Aufruf | Redirect auf HTTPS | ✅ |
 | T03 | HTTPS-Aufruf | Vtiger Loginseite erscheint | ✅ |
@@ -757,7 +757,7 @@ Ziel der tests ist der Nachweis, dass die Migration erfolgreich war und das Syst
 #### 🔧 Dienste
 
 | # | Testfall | Erwartetes Ergebnis | Status |
-|---|----------|-------------------|--------|
+||-|-|--|
 | T06 | `systemctl status apache2` | active (running) | ✅ |
 | T07 | `systemctl status mariadb` | active (running) | ✅ |
 | T08 | `systemctl status ssh` | active (running) | ✅ |
@@ -767,7 +767,7 @@ Ziel der tests ist der Nachweis, dass die Migration erfolgreich war und das Syst
 #### 🗄️ Datenbank
 
 | # | Testfall | Erwartetes Ergebnis | Status |
-|---|----------|-------------------|--------|
+||-|-|--|
 | T11 | Login MariaDB als `vtiger@localhost` | Erfolgreich | ✅ |
 | T12 | Datenbank `vtigercrm` vorhanden | Tabellen sichtbar | ✅ |
 | T13 | Datensätze in `vtiger_accounts` | Kundendaten vorhanden | ✅ |
@@ -776,7 +776,7 @@ Ziel der tests ist der Nachweis, dass die Migration erfolgreich war und das Syst
 #### 🖥️ Vtiger CRM – Funktionen
 
 | # | Testfall | Erwartetes Ergebnis | Status |
-|---|----------|-------------------|--------|
+||-|-|--|
 | T15 | Login Admin-Benutzer | Dashboard erscheint | ✅ |
 | T16 | Login normaler Benutzer | Erfolgreich | ✅ |
 | T17 | Kontakt anzeigen | Bestehende Kontakte vorhanden | ✅ |
@@ -790,7 +790,7 @@ Ziel der tests ist der Nachweis, dass die Migration erfolgreich war und das Syst
 #### 💾 Backup
 
 | # | Testfall | Erwartetes Ergebnis | Status |
-|---|----------|-------------------|--------|
+||-|-|--|
 | T24 | Manueller Backup-Lauf | Dateien vorhanden | ✅ |
 | T25 | DB-Dump entpacken & prüfen | SQL-Inhalt lesbar | ✅ |
 
@@ -804,7 +804,7 @@ Fehlgeschlagen:       0 ❌
 
 > alle Verbindungen, Dienste und Vtiger-Funktionen wurden erfolgreich getestet. Die migration gilt als vollständig und korrekt abgeschlossen.
 
----
+
 
 ## Auftrag #13 – Monitoring
 
@@ -877,7 +877,7 @@ Fällt ein Dienst aus, startet Monit ihn automatisch neu und sendet eine E-Mail-
 - [x] Automatischer Neustart (Watchdog) aktiv
 - [x] Logging in `/var/log/monit.log`
 
----
+
 
 ## Auftrag #14 – Deployment
 
@@ -937,7 +937,7 @@ Sollte das SOLL-System beim Go-Live Probleme zeigen:
 ### Go-Live Ergebnis
 
 | Parameter | Wert |
-|-----------|------|
+|--||
 | Downtime | ca. 15 Minuten |
 | Rollback notwendig | Nein |
 | Alle Benutzer erreichbar | ✅ |
@@ -954,7 +954,7 @@ Sollte das SOLL-System beim Go-Live Probleme zeigen:
 - [x] IST-VM als Archiv-Snapshot gesichert
 - [x] Downtime unter 30 Minuten
 
----
+
 
 ## Arbeitsjournal – CRM Migration
 
@@ -968,7 +968,7 @@ Projektplanung abschliessen, IST-System analysieren und dokumentieren, GitHub Re
 Der erste Versuch, per PuTTY auf die IST-VM (CentOS 6.6) zuzugreifen, schlug fehl. Verschiedene Netzwerkadapter wurden getestet:
 
 | Adapter | Ergebnis |
-|---------|----------|
+||-|
 | Realtek USB GbE (Netzwerkbrücke) | `NO-CARRIER` – keine Verbindung |
 | Intel WiFi 6E (Netzwerkbrücke) | Keine IP erhalten |
 | Host-only Adapter | Keine IP erhalten |
@@ -1007,7 +1007,7 @@ Subnetz: 192.168.10.0/24 | Gateway: 192.168.10.1 | SOLL-IP: 192.168.10.x
 
 Repo-Struktur mit allen Ordnern und Platzhalter-Files aufgesetzt und gepusht.
 
----
+
 
 ### Tag 2 – Umgebung
 
@@ -1019,7 +1019,7 @@ Neue SOLL-VM aufsetzen, Netzwerk konfigurieren, Umgebung für Migration vorberei
 In VMware Workstation Pro wurde eine neue VM mit **ubuntu 24.04.2 LTS** installiert. Der Wechsel von Oracle VirtualBox (IST) zu VMware Workstation Pro (SOLL) war bewusst gewählt, da VMware eine bessere Performance und stabilere Netzwerkkonfiguration bietet.
 
 | Parameter | Wert |
-|-----------|------|
+|--||
 | OS | Ubuntu 24.04.2 LTS (Noble Numbat) |
 | Hypervisor | VMware Workstation Pro |
 | Netzwerkadapter | Bridged (LAN-Port) |
@@ -1035,7 +1035,7 @@ Im Netzwerk wurde eine MikroTik-Firewall eingebunden, welche sämtlichen eingehe
 
 Die ubuntu-Installation verlief dank bestehender Erfahrung problemlos. Netzwerk, SSH und Grundkonfiguration wurden ohne Komplikationen abgeschlossen.
 
----
+
 
 ### Tag 3 – Zielsystem
 
@@ -1066,7 +1066,7 @@ MariaDB installiert, `mysql_secure_installation` durchgeführt. Datenbank `vtige
 
 phpmyadmin installiert, Zugriff auf `192.168.10.0/24` beschränkt. SFTP-User mit Chroot-Jail eingerichtet – kein Shell-Zugang, kein Zugriff ausserhalb des Home-Verzeichnisses.
 
----
+
 
 ### Tag 4 – Migration
 
@@ -1092,7 +1092,7 @@ Der Upgrade erfolgte in 8 Einzelschritten via dem eingebauten Vtiger Migrations-
 
 **Problem beim Schritt 7.4 → 8.0:** Der Migrations-Wizard war nicht erreichbar (HTTP 500). Ursache: PHP 8.3 inkompatibel für diesen Upgrade-Schritt. Lösung: Temporär auf PHP 7.4 gewechselt, Upgrade durchgeführt, danach zurück auf PHP 8.3.
 
----
+
 
 ### Tag 5 – Tests & Deployment
 
@@ -1116,7 +1116,7 @@ Deployment ausserhalb der Geschäftszeiten durchgeführt:
 6. IST-VM als Archiv-Snapshot gesichert
 
 | Kennzahl | Wert |
-|----------|------|
+|-||
 | Downtime | ca. 15 Minuten |
 | Datenverlust | Keiner |
 | Rollback notwendig | Nein |
