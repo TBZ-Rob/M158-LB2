@@ -52,3 +52,5 @@ GROUP BY table_schema;
 | CRM | Vtiger 6.1.0 | ⚠️ EOL |
 
 Alle Komponenten sind End-of-Life. Eine Migration ist dringend notwendig.
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>

@@ -163,3 +163,5 @@ wird ein Alert ausgelöst.
 - [x] E-Mail Alarmierung konfiguriert
 - [x] Automatischer Neustart (Watchdog) aktiv
 - [x] Logging in `/var/log/monit.log`
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>

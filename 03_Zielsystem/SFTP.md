@@ -91,3 +91,5 @@ Der SFTP-Zugang wurde für folgende Aufgaben genutzt:
 - [x] Upload-Verzeichnis mit korrekten Berechtigungen
 - [x] Verbindung getestet
 - [x] Für Datenmigration eingesetzt
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>

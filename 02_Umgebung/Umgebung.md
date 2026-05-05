@@ -63,3 +63,5 @@ bei Verwendung einer Netzwerkbrücke. Die VM erhielt keine IP-Adresse.
 Die Installation der Ubuntu-VM verlief ohne nennenswerte Probleme.
 Dank bestehender Erfahrung mit Ubuntu konnte die Umgebung zügig
 aufgesetzt werden.
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>

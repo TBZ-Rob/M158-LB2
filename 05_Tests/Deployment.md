@@ -127,3 +127,5 @@ Sollte das SOLL-System beim Go-Live Probleme zeigen:
 - [x] Funktionstest nach Go-Live bestanden
 - [x] IST-VM als Archiv-Snapshot gesichert
 - [x] Downtime unter 30 Minuten
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>

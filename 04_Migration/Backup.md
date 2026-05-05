@@ -122,3 +122,5 @@ gunzip -c /mnt/backup/vtiger/db_$(date +%Y-%m-%d).sql.gz | head -20
 - [x] Cron Job täglich 02:00 Uhr
 - [x] Externes Laufwerk als Speicherort
 - [x] Manueller Test erfolgreich
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>

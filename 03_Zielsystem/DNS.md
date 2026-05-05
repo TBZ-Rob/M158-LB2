@@ -61,3 +61,5 @@ PING crmserver.internal.ch (192.168.10.x): 56 data bytes
 - [x] `/etc/hosts` Eintrag gesetzt
 - [x] Namensauflösung mit `ping` getestet
 - [x] Keine Probleme aufgetreten
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>

@@ -88,3 +88,5 @@ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
 - [x] `php.ini` angepasst (Limits, Zeitzone, Fehlerlogging)
 - [x] Apache neu gestartet
 - [x] `info.php` nach Test wieder gelöscht
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>

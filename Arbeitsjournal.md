@@ -104,3 +104,5 @@ Probleme mit PHP-Version bei 7.4→8.0 Upgrade gelöst.
 25 Testfälle durchgeführt – alle bestanden.
 Monit Monitoring eingerichtet mit E-Mail Alarmierung und Auto-Restart.
 Go-Live durchgeführt, Downtime ca. 15 Minuten.
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>
