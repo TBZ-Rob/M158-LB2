@@ -10,6 +10,7 @@ mit folgendem Text:
 
 ---
 
+```
 ## README – CRM Migration
 
 migration des bestehenden CRM-Systems auf ein neues Betriebssystem mit aktuellem Web- und datenbankserver. Die CRM-Applikation Vtiger wird auf die neueste Version aktualisiert und alle Daten vollständig migriert.
@@ -1119,4 +1120,4 @@ Deployment ausserhalb der Geschäftszeiten durchgeführt:
 | Downtime | ca. 15 Minuten |
 | Datenverlust | Keiner |
 | Rollback notwendig | Nein |
-"
+```
