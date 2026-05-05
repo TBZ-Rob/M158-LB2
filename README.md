@@ -124,10 +124,8 @@ M158-LB2/
 
 ---
 
-$\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit }}$
+$\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit }} \textcolor{#D4622A}{\text{Claude AI Pro}} \textcolor{#8b949e}{\text{ generiert.}}$
 
-$\textcolor{#D4622A}{\text{Claude AI Pro}}$
+$\textcolor{#8b949e}{\text{Die Rechtschreibung wurde bei allen Files auf einmal mit folgendem Prompt korrigiert:}}$
 
-$\textcolor{#8b949e}{\text{ generiert. Die Rechtschreibung wurde bei allen Files auf einmal mit folgendem Prompt korrigiert:}}$
-
-$\textcolor{#D4622A}{\text{"Verbessere alle folgenden Sätze in Bezug auf Gross-/Kleinschreibung und korrigiere grössere Formulierungsfehler."}}$
+$\textcolor{#8b949e}{\text{"Verbessere alle folgenden Sätze in Bezug auf Gross-/Kleinschreibung und korrigiere grössere Formulierungsfehler."}}$
