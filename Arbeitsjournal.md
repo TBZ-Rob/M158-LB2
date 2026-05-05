@@ -6,20 +6,30 @@
 gantt
     title CRM Migration – Projektfortschritt
     dateFormat  YYYY-MM-DD
+
     section Planung
-    Projektplan & IST-Analyse      :done, p1, 2025-01-01, 1d
-    Architekturdiagramm            :done, p2, 2025-01-02, 1d
+    Projektplan & IST-Analyse      :done, 2025-04-15, 1d
+    Architekturdiagramm            :done, 2025-04-22, 1d
+
     section Umgebung
-    VM aufsetzen & Netzwerk        :done, u1, 2025-01-08, 1d
+    VM aufsetzen & Netzwerk        :done, 2025-04-29, 1d
+
     section Zielsystem
-    DNS, Apache, PHP               :done, z1, 2025-01-15, 1d
-    MariaDB, PhpMyAdmin, SFTP      :done, z2, 2025-01-16, 1d
+    DNS                           :done, 2025-04-16, 1d
+    Apache & PHP                  :done, 2025-04-16, 1d
+    MariaDB                       :done, 2025-04-23, 1d
+    PhpMyAdmin                    :done, 2025-04-23, 1d
+    SFTP                          :done, 2025-04-23, 1d
+
     section Migration
-    DB-Export & Import             :done, m1, 2025-01-22, 1d
-    Vtiger Upgrade 6.1 → 8.0      :done, m2, 2025-01-23, 1d
+    DB-Export                     :done, 2025-04-30, 1d
+    DB-Import                     :done, 2025-04-30, 1d
+    Vtiger Upgrade                :done, 2025-05-01, 1d
+
     section Tests & Deployment
-    Testkatalog & Monitoring       :done, t1, 2025-01-29, 1d
-    Go-Live                        :done, t2, 2025-01-30, 1d
+    Testkatalog                   :done, 2025-05-03, 1d
+    Monitoring                    :done, 2025-05-03, 1d
+    Go-Live                       :done, 2025-05-03, 1d
 ```
 
 ---
