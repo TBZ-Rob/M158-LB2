@@ -163,4 +163,4 @@ $site_URL = 'https://crmserver.internal.ch/vtigercrm';
 - [x] `config.inc.php` angepasst
 - [x] Login und Datenkonsistenz geprüft
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>

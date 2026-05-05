@@ -100,4 +100,4 @@ sudo systemctl restart mariadb
 - [x] Zugriff auf `localhost` beschränkt
 - [x] Remote Root-Login deaktiviert
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>

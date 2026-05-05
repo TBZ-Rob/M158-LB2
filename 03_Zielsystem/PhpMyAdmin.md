@@ -77,4 +77,4 @@ PhpMyAdmin wurde während der Migration genutzt für:
 - [x] Zugriff auf lokales Netz (192.168.10.0/24) beschränkt
 - [x] Für Migrationskontrolle eingesetzt
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>

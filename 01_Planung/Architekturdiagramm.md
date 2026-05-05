@@ -46,3 +46,5 @@ Gateway:  192.168.10.1
 DNS:      8.8.8.8
 SOLL-IP:  192.168.10.x
 ```
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>

@@ -242,3 +242,5 @@ Deployment ausserhalb der Geschäftszeiten durchgeführt:
 | Downtime | ca. 15 Minuten |
 | Datenverlust | Keiner |
 | Rollback notwendig | Nein |
+
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>

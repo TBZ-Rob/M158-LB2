@@ -164,4 +164,4 @@ wird ein Alert ausgelöst.
 - [x] Automatischer Neustart (Watchdog) aktiv
 - [x] Logging in `/var/log/monit.log`
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>

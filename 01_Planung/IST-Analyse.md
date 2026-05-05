@@ -53,4 +53,4 @@ GROUP BY table_schema;
 
 Alle Komponenten sind End-of-Life. Eine Migration ist dringend notwendig.
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>

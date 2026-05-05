@@ -104,4 +104,4 @@ sudo systemctl restart apache2
 - [x] Module `rewrite`, `ssl`, `headers` aktiviert
 - [x] Standard-Site deaktiviert
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>

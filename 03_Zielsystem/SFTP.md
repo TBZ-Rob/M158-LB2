@@ -92,4 +92,4 @@ Der SFTP-Zugang wurde für folgende Aufgaben genutzt:
 - [x] Verbindung getestet
 - [x] Für Datenmigration eingesetzt
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit KI-Unterstützung generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>
