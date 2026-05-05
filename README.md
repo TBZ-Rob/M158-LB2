@@ -128,5 +128,4 @@ $\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur
 \textcolor{#D4622A}{\text{Claude AI Pro}} 
 \textcolor{#8b949e}{\text{ generiert. Die Rechtschreibung wurde bei allen Files auf einmal mit folgendem Prompt korrigiert:}}$
 
-$\textcolor{#D4622A}{\text{"Verbessere alle folgenden Sätze in Bezug auf Gross-/Kleinschreibung und korrigiere grössere Formulierungsfehler: }}$
-$\textcolor{#D4622A}{\text{<a href="Rohfassung.md">Rohfassung</a>"}}$
+$\textcolor{#D4622A}{\text{"Verbessere alle folgenden Sätze in Bezug auf Gross-/Kleinschreibung und korrigiere grössere Formulierungsfehler."}}$
