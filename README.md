@@ -14,7 +14,7 @@ Migration des bestehenden CRM-Systems auf ein neues Betriebssystem mit aktuellem
 
 ```mermaid
 flowchart LR
-    subgraph IST["❌ IST – CentOS 6.6 (EOL)"]
+    subgraph IST["❌ IST – Alter Server: CentOS 6.6 (EOL)"]
         A1[Apache 2.2.15]
         P1[PHP 5.3.3]
         D1[(MySQL 5.1.73)]
@@ -23,15 +23,22 @@ flowchart LR
         A1 --> V1
     end
 
-    subgraph SOLL["✅ SOLL – Ubuntu 24.04 LTS"]
-        A2[Apache 2.4.62]
-        P2[PHP 8.3]
-        D2[(MariaDB 11.4 LTS)]
-        V2[Vtiger 8.0]
-        FW[🔒 MikroTik Firewall]
-        FW --> A2
-        A2 --> P2 --> D2
-        A2 --> V2
+    subgraph SOLL["✅ SOLL – Neue Umgebung"]
+        
+        subgraph FW["🔒 MikroTik Firewall"]
+            FW1[MikroTik]
+        end
+
+        subgraph UBUNTU["🖥️ Ubuntu Server 24.04 LTS"]
+            A2[Apache 2.4.62]
+            P2[PHP 8.3]
+            D2[(MariaDB 11.4 LTS)]
+            V2[Vtiger 8.0]
+            A2 --> P2 --> D2
+            A2 --> V2
+        end
+
+        FW1 --> A2
     end
 
     IST -- Migration --> SOLL
