@@ -1,6 +1,6 @@
 # Rohfassung – Alle Dokumente (vor Korrektur)
 
-> Ursprüngliche Rohfassung aller Projektdokumente, vor Rechtschreib- und Formulierungskorrektur.
+> Ursprüngliche Rohfassung aller Projektdokumente, vor Grafiken, Rechtschreib- und Formulierungskorrektur
 
 ---
 
