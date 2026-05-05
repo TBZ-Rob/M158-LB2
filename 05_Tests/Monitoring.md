@@ -164,4 +164,4 @@ wird ein Alert ausgelöst.
 - [x] Automatischer Neustart (Watchdog) aktiv
 - [x] Logging in `/var/log/monit.log`
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit $\textcolor{#D4622A}{\text{Claude AI Pro}}$ generiert.</sub>
+$\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit }} \textcolor{#D4622A}{\text{Claude AI Pro}} \textcolor{#8b949e}{\text{ generiert.}}$

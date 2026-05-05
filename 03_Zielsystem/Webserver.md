@@ -104,4 +104,4 @@ sudo systemctl restart apache2
 - [x] Module `rewrite`, `ssl`, `headers` aktiviert
 - [x] Standard-Site deaktiviert
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit $\textcolor{#D4622A}{\text{Claude AI Pro}}$ generiert.</sub>
+$\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit }} \textcolor{#D4622A}{\text{Claude AI Pro}} \textcolor{#8b949e}{\text{ generiert.}}$
