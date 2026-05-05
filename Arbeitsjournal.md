@@ -8,28 +8,28 @@ gantt
     dateFormat  YYYY-MM-DD
 
     section Planung
-    Projektplan & IST-Analyse      :done, 2025-04-15, 1d
-    Architekturdiagramm            :done, 2025-04-22, 1d
+    Projektplan & IST-Analyse      :done, 2025-04-15, 0d
+    Architekturdiagramm            :done, 2025-04-22, 0d
 
     section Umgebung
-    VM aufsetzen & Netzwerk        :done, 2025-04-29, 1d
+    VM aufsetzen & Netzwerk        :done, 2025-04-29, 0d
 
     section Zielsystem
-    DNS                           :done, 2025-04-16, 1d
-    Apache & PHP                  :done, 2025-04-16, 1d
-    MariaDB                       :done, 2025-04-23, 1d
-    PhpMyAdmin                    :done, 2025-04-23, 1d
-    SFTP                          :done, 2025-04-23, 1d
+    DNS                            :done, 2025-04-16, 0d
+    Apache & PHP                   :done, 2025-04-16, 0d
+    MariaDB                        :done, 2025-04-23, 0d
+    PhpMyAdmin                     :done, 2025-04-23, 0d
+    SFTP                           :done, 2025-04-23, 0d
 
     section Migration
-    DB-Export                     :done, 2025-04-30, 1d
-    DB-Import                     :done, 2025-04-30, 1d
-    Vtiger Upgrade                :done, 2025-05-01, 1d
+    DB-Export                      :done, 2025-04-30, 0d
+    DB-Import                      :done, 2025-04-30, 0d
+    Vtiger Upgrade                 :done, 2025-05-01, 0d
 
     section Tests & Deployment
-    Testkatalog                   :done, 2025-05-03, 1d
-    Monitoring                    :done, 2025-05-03, 1d
-    Go-Live                       :done, 2025-05-03, 1d
+    Testkatalog                    :done, 2025-05-03, 0d
+    Monitoring                     :done, 2025-05-03, 0d
+    Go-Live                        :done, 2025-05-03, 0d
 ```
 
 ---
