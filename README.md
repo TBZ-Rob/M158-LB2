@@ -124,8 +124,9 @@ M158-LB2/
 
 ---
 
-$\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit }} \textcolor{#D4622A}{\text{Claude AI Pro}} \textcolor{#8b949e}{\text{ generiert. Die Rechtschreibung wurde bei allen files auf einmal korrigiert mit folgende Prompt:
-```
-test
-```
-.}}$
+$\textcolor{#8b949e}{\text{Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit }} 
+\textcolor{#D4622A}{\text{Claude AI Pro}} 
+\textcolor{#8b949e}{\text{ generiert. Die Rechtschreibung wurde bei allen Files auf einmal mit folgendem Prompt korrigiert:}}$
+
+$\textcolor{#D4622A}{\text{"Verbessere alle folgenden Sätze in Bezug auf Gross-/Kleinschreibung und korrigiere grössere Formulierungsfehler: }}$
+$\textcolor{#D4622A}{\text{<a href="Rohfassung.md">Rohfassung</a>"}}$
