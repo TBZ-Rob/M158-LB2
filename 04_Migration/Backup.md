@@ -123,4 +123,4 @@ gunzip -c /mnt/backup/vtiger/db_$(date +%Y-%m-%d).sql.gz | head -20
 - [x] Externes Laufwerk als Speicherort
 - [x] Manueller Test erfolgreich
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit <span style="color: #D4622A">Claude AI Pro</span> generiert.</sub>

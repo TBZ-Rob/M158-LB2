@@ -124,4 +124,4 @@ M158-LB2/
 
 ---
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit <span style="color: #D4622A">Claude AI Pro</span> generiert.</sub>

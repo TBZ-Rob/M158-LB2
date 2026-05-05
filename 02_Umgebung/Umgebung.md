@@ -64,4 +64,4 @@ Die Installation der Ubuntu-VM verlief ohne nennenswerte Probleme.
 Dank bestehender Erfahrung mit Ubuntu konnte die Umgebung zügig
 aufgesetzt werden.
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit <span style="color: #D4622A">Claude AI Pro</span> generiert.</sub>

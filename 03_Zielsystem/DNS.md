@@ -62,4 +62,4 @@ PING crmserver.internal.ch (192.168.10.x): 56 data bytes
 - [x] Namensauflösung mit `ping` getestet
 - [x] Keine Probleme aufgetreten
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit Claude AI Pro generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit <span style="color: #D4622A">Claude AI Pro</span> generiert.</sub>
