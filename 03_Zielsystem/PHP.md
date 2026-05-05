@@ -89,4 +89,4 @@ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
 - [x] Apache neu gestartet
 - [x] `info.php` nach Test wieder gelöscht
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit <img src="https://img.shields.io/badge/Claude_AI_Pro-D4622A?style=flat-square" alt="Claude AI Pro"> generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit $\textcolor{#D4622A}{\text{Claude AI Pro}}$ generiert.</sub>

@@ -62,4 +62,4 @@ PING crmserver.internal.ch (192.168.10.x): 56 data bytes
 - [x] Namensauflösung mit `ping` getestet
 - [x] Keine Probleme aufgetreten
 
-<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit <img src="https://img.shields.io/badge/Claude_AI_Pro-D4622A?style=flat-square" alt="Claude AI Pro"> generiert.</sub>
+<sub>Hinweis: Diagramme, Rechtschreibung und Repo-Struktur wurden mit $\textcolor{#D4622A}{\text{Claude AI Pro}}$ generiert.</sub>
