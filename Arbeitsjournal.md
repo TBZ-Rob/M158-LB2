@@ -51,17 +51,16 @@ mysql -u root -p -e "SELECT * FROM vtiger_version;" vtigercrm
 
 ### Architekturdiagramm IST/SOLL
 
-IST- und SOLL-Diagramm in Visio erstellt. Diagramme zeigen die Dienste auf dem Server sowie deren Abhängigkeiten (Apache → Vtiger, Apache → PHP → MySQL).
+IST- und SOLL-Diagramm erstellt. Diagramme zeigen die Dienste auf dem Server sowie deren Abhängigkeiten (Apache → Vtiger, Apache → PHP → MySQL).
 
 ### Netzwerkplanung SOLL-System
 
-Für die spätere Kommunikation zwischen IST- und SOLL-VM wird ein eigenes NAT-Netzwerk in VirtualBox eingerichtet:
+Für die spätere Kommunikation zwischen IST- und SOLL-VM wird ein eigenes Netzwerk eingerichtet:
 
 ```
-Name:    crm-migration
-Subnetz: 192.168.100.0/24
-Gateway: 192.168.100.1
-SOLL-IP: 192.168.100.10
+Subnetz: 192.168.10.0/24
+Gateway: 192.168.10.1
+SOLL-IP: 192.168.10.x
 ```
 
 ### GitHub Repo
@@ -72,3 +71,36 @@ Repo-Struktur aufgesetzt und folgende Files erstellt:
 - `01_Planung/Projektplan.md`
 - `01_Planung/IST-Analyse.md`
 - `01_Planung/Architekturdiagramm.md`
+
+---
+
+## Tag 2 – Umgebung
+
+Neue VM in VMware Workstation Pro aufgesetzt mit Ubuntu 24.04.2 LTS.
+Netzwerkkonfiguration gemäss Planung gesetzt. MikroTik-Firewall im Netz aktiv.
+SSH-Verbindung zur alten CentOS-VM mit Legacy-Algorithmen gelöst.
+
+---
+
+## Tag 3 – Zielsystem
+
+DNS via `/etc/hosts` konfiguriert (`crmserver.internal.ch`).
+Apache 2.4, PHP 8.3 und MariaDB 11.4 LTS installiert und konfiguriert.
+PhpMyAdmin und SFTP-Zugang eingerichtet.
+
+---
+
+## Tag 4 – Migration
+
+Datenbankdump vom IST-System erstellt und auf SOLL-System übertragen.
+Vtiger 6.4 neu installiert, Dump importiert.
+Schrittweiser Upgrade von 6.4 → 8.0 via Vtiger Migrations-Wizard.
+Probleme mit PHP-Version bei 7.4→8.0 Upgrade gelöst.
+
+---
+
+## Tag 5 – Tests & Deployment
+
+25 Testfälle durchgeführt – alle bestanden.
+Monit Monitoring eingerichtet mit E-Mail Alarmierung und Auto-Restart.
+Go-Live durchgeführt, Downtime ca. 15 Minuten.

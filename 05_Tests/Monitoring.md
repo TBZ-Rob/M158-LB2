@@ -42,12 +42,12 @@ set logfile /var/log/monit.log
 
 # E-Mail Alarmierung
 set mailserver smtp.gmail.com port 587
-    username "monitoring@sample.ch"
+    username "monitoring@internal.ch"
     password "app_passwort"
     using tls
 
 set mail-format {
-    from:    monitoring@sample.ch
+    from:    monitoring@internal.ch
     subject: [MONIT] $SERVICE – $EVENT
     message: Dienst: $SERVICE
              Host:   $HOST
@@ -55,7 +55,7 @@ set mail-format {
              Datum:  $DATE
 }
 
-set alert admin@sample.ch
+set alert admin@internal.ch
 
 # Monit Web-Interface (nur lokal)
 set httpd port 2812
@@ -82,7 +82,7 @@ check process apache2 with pidfile /run/apache2/apache2.pid
     if failed host crmserver.internal.ch port 80 protocol http then restart
     if failed host crmserver.internal.ch port 443 protocol https then restart
     if 3 restarts within 5 cycles then alert
-    alert admin@sample.ch
+    alert admin@internal.ch
 
 # MariaDB Datenbank
 check process mariadb with pidfile /run/mysqld/mysqld.pid
@@ -90,14 +90,14 @@ check process mariadb with pidfile /run/mysqld/mysqld.pid
     stop  program = "/bin/systemctl stop mariadb"
     if failed host 127.0.0.1 port 3306 protocol mysql then restart
     if 3 restarts within 5 cycles then alert
-    alert admin@sample.ch
+    alert admin@internal.ch
 
 # SSH Dienst
 check process sshd with pidfile /run/sshd.pid
     start program = "/bin/systemctl start ssh"
     stop  program = "/bin/systemctl stop ssh"
     if failed port 22 protocol ssh then restart
-    alert admin@sample.ch
+    alert admin@internal.ch
 
 # Speicherplatz überwachen
 check filesystem rootfs with path /

@@ -1,4 +1,4 @@
-    # Auftrag #12 – Testing
+# Auftrag #12 – Testing
 
 ![Status](https://img.shields.io/badge/Status-Abgeschlossen-brightgreen)
 ![Tests](https://img.shields.io/badge/Tests-25_Testfälle-blue)

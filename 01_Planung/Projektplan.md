@@ -1,6 +1,6 @@
 # Auftrag #1 – Projektplan
 
-![alt text](../00_Files/Screenshots/Planung-Grafik.png)
+![Status](https://img.shields.io/badge/Status-Abgeschlossen-brightgreen)
 
 ## Rahmenbedingungen
 - 5 Projekttage (je 4 x 45 min = 3h)
@@ -16,15 +16,15 @@
 - GitHub Repo aufsetzen
 
 ### Tag 2 – Umgebung
-- Neue VM aufsetzen (Ubuntu 22.04)
+- Neue VM aufsetzen (Ubuntu 24.04 LTS)
 - Netzwerk konfigurieren
-- Firewall (UFW) einrichten
+- MikroTik Firewall einrichten
 
 ### Tag 3 – Zielsystem
 - DNS konfigurieren
 - Apache 2.4 installieren und konfigurieren
-- PHP 8.2 installieren und konfigurieren
-- MariaDB 10.x installieren und konfigurieren
+- PHP 8.3 installieren und konfigurieren
+- MariaDB 11.4 installieren und konfigurieren
 - PhpMyAdmin einrichten
 - SFTP-Zugang einrichten
 
@@ -33,11 +33,11 @@
 - Vtiger-Datenbank exportieren (MySQL Dump)
 - Daten auf neues System übertragen
 - Datenbankdump in MariaDB importieren
-- Vtiger 7.x auf Ubuntu 22.04 konfigurieren
+- Vtiger schrittweise auf 8.0 upgraden
 - Konfiguration anpassen und testen
 
 ### Tag 5 – Tests
-- Funktionstest gemäss Testkatalog durchführen
+- Funktionstest gemäss Testkatalog durchführen (25 Testfälle)
 - Monitoring einrichten
 - Deployment / Abnahme
 
