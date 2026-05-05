@@ -2,6 +2,9 @@
 
 > Ursprüngliche Rohfassung aller Projektdokumente, bevor Grafiken hinzugefügt wurden und Rechtschreib- und Formulierungs Fehler korrigiert wurde.
 
+Folgender Prompt wurde zur Textverbesserung angewendet:
+"Verbessere alle folgenden Sätze in Bezug auf Gross-/Kleinschreibung und korrigiere grössere Formulierungsfehler:
+
 ---
 
 ## README – CRM Migration
@@ -1113,3 +1116,4 @@ Deployment ausserhalb der Geschäftszeiten durchgeführt:
 | Downtime | ca. 15 Minuten |
 | Datenverlust | Keiner |
 | Rollback notwendig | Nein |
+"
