@@ -3,8 +3,10 @@
 > Ursprüngliche Rohfassung aller Projektdokumente, bevor Grafiken hinzugefügt wurden und Rechtschreib- und Formulierungs Fehler korrigiert wurde.
 
 Folgender Prompt wurde zur Textverbesserung angewendet:
-"Verbessere alle folgenden Sätze in Bezug auf Gross-/Kleinschreibung und korrigiere grössere Formulierungsfehler:
-
+```
+"Verbessere alle folgenden Sätze in Bezug auf Gross-/Kleinschreibung und korrigiere grössere Formulierungsfehler:"
+```
+mit folgendem Text:
 ---
 
 ## README – CRM Migration
